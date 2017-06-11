@@ -173,5 +173,40 @@ footer {
 }
 
 @media only screen and (max-width: 470px) {
-  
+  .upper-inner {
+    width: 100%;
+    margin: 10rem 0 0;
+    padding: 1rem 0rem;
+    height: auto;
+  }
+  .upper-inner h4 {
+    font-size: 0.77rem;
+    padding: 0.25rem 2rem;
+  }
+  .upper-inner h2 {
+    font-size: 1rem;
+    padding: 0rem 2rem;
+
+  }
+  .content-upper {
+    height: 15rem;
+  }
+  .indiv-item {
+    width: 90%;
+    margin: 3rem auto;
+  }
+  .second {
+    display: none;
+  }
+  .container {
+    width: 100%;
+  }
+  .info {
+    width: 90%;
+    margin: 0 auto 0.5rem;
+  }
+  footer {
+    text-align: center;
+    margin-top: 3rem;
+  }
 }
